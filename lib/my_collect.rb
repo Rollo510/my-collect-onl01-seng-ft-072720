@@ -1,4 +1,4 @@
-require binding.pry
+/require binding.pry
 
 def collect(array)
   i = 0
