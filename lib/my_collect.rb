@@ -1,5 +1,3 @@
-/require binding.pry
-
 def collect(array)
   i = 0
   collection = []
@@ -7,6 +5,5 @@ def collect(array)
     collection << yield(array[i])
     i += 1
   end
-  binding.pry
     collection
 end
