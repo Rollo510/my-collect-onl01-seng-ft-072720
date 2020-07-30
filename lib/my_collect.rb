@@ -8,6 +8,6 @@ def collect(array)
     collection
 end
 
-collect([collection]) do |x|
+collect(collection) do |x|
 
 end
