@@ -7,3 +7,7 @@ def collect(array)
   end
     collection
 end
+
+collect([collection]) do |x|
+
+end
